@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*滚动条样式*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --primary-color: rgb(38, 145, 233);
+  --secondary-color: rgb(160, 205, 240);
+  --lightGray-color: #e5ecf3;
+  --white-color: #ffffff;
+  --sectext-color: #292929;
+  --highlighter-color: #475cd1;
+}

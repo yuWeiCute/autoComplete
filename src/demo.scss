@@ -1,0 +1,74 @@
+body {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  background: rgb(38, 145, 233);
+  flex-direction: column;
+}
+
+/*滚动条样式*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+input {
+  height: 45px;
+  padding: 0 12px;
+  color: #fff;
+  border: 2px solid #fff;
+  background: rgb(38, 145, 233);
+  width: 15rem;
+  outline: 0;
+  font-size: 20;
+}
+
+input::-webkit-input-placeholder {
+  /*WebKit browsers*/
+  color: rgb(160, 205, 240);
+}
+
+input::-moz-input-placeholder {
+  /*Mozilla Firefox*/
+  color: rgb(160, 205, 240);
+}
+
+input::-ms-input-placeholder {
+  /*Internet Explorer*/
+  color: rgb(160, 205, 240);
+}
+
+// input:hover {
+//   box-shadow: 0 2px 8px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(255, 255, 255, 0.19);
+// }
+
+.no-demo {
+  color: #ffffff;
+  padding: 8px;
+}
+
+.demo {
+  color: #292929;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 550px;
+  overflow-y: auto;
+  padding-left: 0;
+  background: #fff;
+  // width: 300px;
+}
+
+.demo li {
+  padding: 8px;
+}
+
+.demo li:hover {
+  background-color: #e5ecf3;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+.highlighter-demo {
+  color: #475cd1;
+  font-weight: 800;
+}
